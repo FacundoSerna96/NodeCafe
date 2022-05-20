@@ -23,10 +23,10 @@ npm start
 
 ## Construido con 🛠️
 
-* [Node.js]() - Javascript Backend
-* [Express.js]() - Framework de Node.js
-* [MongoDB]() - Base de datos no relacional
-* [Mongoose]() - Libreria de Node.js para conectar con MongoDB
-* [JSON Web Token (JWT)]() - Estandar para la creacion de tokens de acceso
-* [bcryptjs]() - Para la encriptacion de contraseñas
-* [Cloudinary]() - Gestor de imagenes online
+* [Node.js](https://nodejs.org/es/) - Javascript Backend
+* [Express.js](https://expressjs.com/) - Framework de Node.js
+* [MongoDB](https://www.mongodb.com/es) - Base de datos no relacional
+* [Mongoose](https://mongoosejs.com/) - Libreria de Node.js para conectar con MongoDB
+* [JSON Web Token (JWT)](https://jwt.io/) - Estandar para la creacion de tokens de acceso
+* [bcryptjs](https://www.npmjs.com/package/bcryptjs) - Para la encriptacion de contraseñas
+* [Cloudinary](https://cloudinary.com/) - Gestor de imagenes online
