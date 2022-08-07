@@ -11,7 +11,7 @@ const router = Router();
 
 router.get('/:coleccion/:id',[
     check('id','El id debe de ser de mongodb ').isMongoId(),
-    check('coleccion').custom(c => coleccionesPermitidas(c , ['usuarios', 'productos'])),
+    check('coleccion').custom(c => coleccionesPermitidas(c , ['usuarios'])),
     validarCampos
 ], mostrarImagen);
 
@@ -22,7 +22,7 @@ router.post('/', [
 router.put('/:coleccion/:id', [
     validarArchivoSubir,
     check('id','El id debe de ser de mongodb ').isMongoId(),
-    check('coleccion').custom(c => coleccionesPermitidas(c , ['usuarios', 'productos'])),
+    check('coleccion').custom(c => coleccionesPermitidas(c , ['usuarios'])),
     validarCampos
 ], actualizarImagenCloudinary);
 
